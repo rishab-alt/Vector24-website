@@ -236,27 +236,27 @@ const App: React.FC = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
             {/* Feature 1 */}
             <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
-              <h4 className="text-xl font-semibold mb-2">Real-time Data</h4>
+              <h4 className="text-xl font-semibold mb-2">Interactive Vector Drawing</h4>
               <p className="text-gray-600 dark:text-gray-300">
-                Access real-time data for better decision-making.
+              Click and drag to draw vectors, with heading (angle) displayed dynamically.
               </p>
             </div>
             {/* Feature 2 */}
             <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
               <h4 className="text-xl font-semibold mb-2">
-                User-Friendly Interface
+              Position Selection
               </h4>
               <p className="text-gray-600 dark:text-gray-300">
-                Enjoy a sleek and intuitive interface for ease of use.
+              You can select you controlling position so people can see where you are controlling
               </p>
             </div>
             {/* Feature 3 */}
             <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
               <h4 className="text-xl font-semibold mb-2">
-                Customizable Settings
+              Discord Rich Presence Integration.
               </h4>
               <p className="text-gray-600 dark:text-gray-300">
-                Tailor the application to fit your specific needs.
+              Automatically updates your Discord status to reflect drawing activity.
               </p>
             </div>
           </div>
@@ -318,8 +318,7 @@ const App: React.FC = () => {
             <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">
               <h4 className="font-semibold">Is there support for Mac?</h4>
               <p className="text-gray-600 dark:text-gray-300">
-                As of now, there isn't any support for Mac; it's still a feature
-                in the works.
+               Mac is currently in beta testing and should be available soon!
               </p>
             </div>
             <div className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md">

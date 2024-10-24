@@ -45,3 +45,43 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+/* Scale-up animation */
+@keyframes scaleUp {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.scale-up {
+  animation: scaleUp 0.5s ease-in-out forwards;
+}
+
+/* Transition for buttons */
+.btn-transition {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-transition:hover {
+  transform: scale(1.05);
+}
