@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image-right {
+    margin-left: auto; /* Pushes the image to the right */
+  }
+
+  
